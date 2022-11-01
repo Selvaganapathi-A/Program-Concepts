@@ -403,19 +403,19 @@ Here's a list of how the operators translate into method names.
 
 | OPERATION           | OPERATOR | METHOD           |
 | :------------------ | :------- | :--------------- |
-| Addition            | +        | **\__add__**      |
-| Subtraction         | -        | **\__sub__**      |
-| Multiplication      | *        | **\__mul__**      |
-| Power               | **       | **\__pow__**      |
-| Division            | /        | **\__truediv__**  |
-| Floor Division      | //       | **\__floordiv__** |
-| Remainder (modulo)  | %        | **\__mod__**      |
-| Bitwise Left Shift  | <<       | **\__lshift__**   |
-| Bitwise Right Shift | >>       | **\__rshift__**  |
-| Bitwise AND         | &        | **\__and__**      |
-| Bitwise OR          | \|       | **\__or__**       |
-| Bitwise XOR         | ^        | **\__xor__**      |
-| Bitwise NOT         | ~        | **\__invert__**   |
+| Addition            | +        | **\_\_add\_\_**      |
+| Subtraction         | -        | **\_\_sub\_\_**      |
+| Multiplication      | *        | **\_\_mul\_\_**      |
+| Power               | **       | **\_\_pow\_\_**      |
+| Division            | /        | **\_\_truediv\_\_**  |
+| Floor Division      | //       | **\_\_floordiv\_\_** |
+| Remainder (modulo)  | %        | **\_\_mod\_\_**      |
+| Bitwise Left Shift  | <<       | **\_\_lshift\_\_**   |
+| Bitwise Right Shift | >>       | **\_\_rshift\_\_**  |
+| Bitwise AND         | &        | **\_\_and\_\_**      |
+| Bitwise OR          | \|       | **\_\_or\_\_**       |
+| Bitwise XOR         | ^        | **\_\_xor\_\_**      |
+| Bitwise NOT         | ~        | **\_\_invert\_\_**   |
 
 ### How to overload built-in methods
 
