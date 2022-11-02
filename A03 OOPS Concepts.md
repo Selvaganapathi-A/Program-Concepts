@@ -466,3 +466,32 @@ int add(int a,int b,int c){
     return a+b+c
 }
 ```
+
+
+#### Method Overriding
+
+Inheritance is an OOP property that allows us to derive a new class (subclass) from an existing class (superclass). The subclass inherits the attributes and methods of the superclass.
+
+Now, if the same method is defined in both the superclass and the subclass, then the method of the subclass class overrides the method of the superclass. This is known as method overriding.
+
+```java
+class Animal {
+   public void displayInfo() {
+      System.out.println("I am an animal.");
+   }
+}
+
+class Dog extends Animal {
+   /* @Overriding Animal method */
+   public void displayInfo() {
+      System.out.println("I am a dog.");
+   }
+}
+
+class Main {
+   public static void main(String[] args) {
+      Dog d1 = new Dog();
+      d1.displayInfo();
+   }
+}
+```
