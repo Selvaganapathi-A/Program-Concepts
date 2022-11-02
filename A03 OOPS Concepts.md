@@ -482,7 +482,7 @@ class Animal {
 }
 
 class Dog extends Animal {
-   /* @Overriding Animal method */
+   /* Overriding Animal method */
    public void displayInfo() {
       System.out.println("I am a dog.");
    }
