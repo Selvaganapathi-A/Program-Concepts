@@ -448,3 +448,21 @@ p1 = Point(4, 5)
 print(p1)
 # prints "(4,5)"
 ```
+
+#### Method Overloading
+
+Two or more methods may have the same name if they differ in parameters (different number of parameters, different types of parameters, or both). These methods are called overloaded methods and this feature is called method overloading.
+
+```cpp
+int add(int a, int b){
+    return a+b
+}
+
+int add(float a, float b){
+    return a+b
+}
+
+int add(int a,int b,int c){
+    return a+b+c
+}
+```
